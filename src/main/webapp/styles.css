@@ -1,0 +1,34 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap:10px;
+}
+.leftcol {
+    width: 20%;
+    border-style: solid;
+    border-color: black;
+    justify-content: flex-start;
+}
+.body {
+    width: 70%;
+    min-height: 90vh;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png");
+}
+.user {
+    width:10%;
+    justify-content: flex-end;
+}
+
+.message {
+    width:100%;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

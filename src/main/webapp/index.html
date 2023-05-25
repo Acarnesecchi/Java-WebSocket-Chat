@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="websocket.js"></script>
+    <title>Chat</title>
+</head>
+<body>
+<div class="wrapper">
+    <aside class="leftcol" id="leftcol">
+        Ajaja
+        <ul id="list"></ul>
+    </aside>
+    <main class="body">
+        <div id="textarea">
+            <textarea id="message" placeholder="Type your message here..." rows="5" cols="40"></textarea>
+            <input type="button" onclick="sendMessage()" value="Send" id="send">
+        </div>
+    </main>
+    <aside class="user" id="user">
+
+    </aside>
+</div>
+
+</body>
+</html>
